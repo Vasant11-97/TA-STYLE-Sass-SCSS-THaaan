@@ -1,0 +1,109 @@
+.header{
+    background-color: #DC3C45;
+    .header-div {
+        padding: 1rem 0rem;
+    }
+    .header-div i {
+        color: #ffffff;
+        margin: 0rem 0.50rem;
+    }
+    .header-div p {
+        color: #ffffff;
+    }
+    .header-div div{
+        margin-right: 1rem;
+    }
+    .nav {
+        background-color: #F2F2F2;
+        padding: 1.5rem 0rem;
+    }
+    .nav a{
+        color: #3D3D3D;
+        margin-right: 1rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .nav .brand a {
+        font-size: 2rem;
+        font-weight: 800;
+        color: #DC3C45;
+    }
+    .nav .brand span {
+        color: black;
+    
+    }
+    .sub-menu-box {
+        position: relative;
+    }
+    .sub-menu {
+        position: absolute;
+        background-color: #fff; 
+        width: 8rem;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-40%);
+        display: none;
+        top: 1.5rem;
+    }
+    .sub-menu-box:hover .sub-menu{
+        display: inline-block;
+    }
+
+    @media screen and (max-width: 768px) {
+        // hamburger
+    .nav-toggle{
+        display: none;
+    }
+    #toggle{
+        z-index: 1;
+        display: none;
+    }
+    #toggle:checked ~ .header-nav{
+        display: inline-block;
+    }
+    .bars{
+        display: inline-block;
+        font-size: 2rem;
+        position: fixed;
+        z-index: 99;
+        right: 16px;
+        top: 6px;
+        color: #EA5433;
+    }
+    .nav-toggle ul {
+        display: block
+    }
+    .nav-toggle li{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .nav-toggle .btn {
+        margin-left: -2rem;
+        padding: 1rem 1rem;
+    }
+    .nav-toggle .btn a{
+        padding-left: 1.5rem;
+    }
+    .nav-toggle a{
+        font-size: 1.6rem;
+        padding: 0;
+        font-weight: 900;
+    }
+    .nav-toggle{
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(234, 235, 236, 0.9);
+        padding-top: 0px;
+        text-align: center;
+        z-index: 9;
+    }
+}
+    }
+
+
+

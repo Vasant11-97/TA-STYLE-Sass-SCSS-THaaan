@@ -1,0 +1,89 @@
+.about-us-page-section-1 {
+    background-color: #DC3C45;
+    text-align: center;
+    color: #ffffff;
+}
+.about-us-page-section-1 h2 {
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+}
+.about-us-page-section-1 p {
+    font-size: 1.2rem;
+}
+
+// Section 2
+
+.about-us-page-section-2 .flex-30 img {
+    width: 25rem
+}
+.about-us-page-section-2 i {
+    font-size: 4rem;
+    color: rgb(92, 91, 91);
+}
+.about-us-page-section-2 .row {
+    margin-bottom: 4rem;
+}
+.about-us-page-section-2 h3{
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+}
+.about-us-page-section-2 p {
+    padding-left: 2rem;
+    color: gray;
+}
+
+// Section 3
+
+.about-us-page-section-3 {
+    text-align: center;
+    background-color: #F8F9FA;
+}
+.about-us-page-section-3 h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+.about-us-page-section-3 p {
+    font-size: 1.3rem;
+    color: rgb(43, 42, 42);
+    padding-bottom: 3rem;
+}
+.about-us-page-section-3 .flex-22 img {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+.about-us-page-section-3 .flex-22  {
+    font-size: 2rem;
+    border: 4px solid rgb(248, 245, 245);
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+.about-us-page-section-3 .cite {
+    font-size: 1.5rem;
+
+}
+.about-us-page-section-3 .flex-22 p{
+    color: red;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+.about-us-page-section-4 {
+    text-align: center;
+}
+.about-us-page-section-4 h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.about-us-page-section-4 p {
+    font-size: 1.2rem;
+    color: rgb(192, 189, 189);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.about-us-page-section-4 .btn {
+    background-color: #DC3C45;
+    color: #ffffff;
+}
